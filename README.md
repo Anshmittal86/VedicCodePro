@@ -37,8 +37,8 @@ You can author your README using Visual Studio Code. Here are some useful editor
 
 ## License
 
-[MIT](LICENSE)
+[MIT](./LICENSE.txt)
 
 ## Credits
 
-- [**Vedic Code Pro**](https://github.com/AnshMittal/vedic-code-pro) by [Ansh Mittal](https://github.com/AnshMittal)
+- [**Vedic Code Pro**](https://github.com/AnshMittal/VedicCodePro) by [Ansh Mittal](https://github.com/AnshMittal)
