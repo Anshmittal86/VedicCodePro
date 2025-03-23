@@ -41,4 +41,4 @@ You can author your README using Visual Studio Code. Here are some useful editor
 
 ## Credits
 
-- [**Vedic Code Pro**](https://github.com/AnshMittal/VedicCodePro) by [Ansh Mittal](https://github.com/AnshMittal)
+- [**Vedic Code Pro**](https://github.com/AnshMittal86/VedicCodePro) by [Ansh Mittal](https://github.com/AnshMittal86)
