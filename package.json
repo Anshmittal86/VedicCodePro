@@ -1,0 +1,26 @@
+{
+  "name": "vedic-code-pro",
+  "displayName": "Vedic Code Pro",
+  "description": "A dark theme optimized for web development.",
+  "version": "1.0.0",
+  "publisher": "Ansh Mittal",
+  "custom": {
+    "vedicSignature": true,
+    "dynamicContrast": false
+  },
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vedic Code Pro (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/VedicCodePro.json"
+      }
+    ]
+  }
+}
