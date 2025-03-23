@@ -57,6 +57,7 @@
     "tab.border": "#121826",
     "scrollbarSlider.background": "#3B404844",
     "scrollbarSlider.hoverBackground": "#FFB45480",
+    "scrollbarSlider.activeBackground": "#FFB454AA",
     "minimap.background": "#12182600",
     "minimap.selectionHighlight": "#2E5C8A66",
     "minimap.errorHighlight": "#F44747AA",
@@ -71,7 +72,20 @@
     "panel.background": "#0E1320",
     "breadcrumb.background": "#121826",
     "editorGroup.dropBackground": "#2E5C8A33",
-    "gitDecoration.ignoredResourceForeground": "#5C6370CC"
+    "gitDecoration.ignoredResourceForeground": "#5C6370CC",
+    "dropdown.background": "#161B25",
+    "dropdown.foreground": "#E6EDF3",
+    "dropdown.border": "#292D3E",
+    "list.hoverBackground": "#2E5C8A55",
+    "list.hoverForeground": "#FFB454",
+    "quickInputList.focusBackground": "#2E5C8A80",
+    "focusBorder": "#FFB45455",
+    "input.background": "#1A1F2B",
+    "input.foreground": "#FFD580",
+    "notificationToast.border": "#2E5C8A",
+    "button.background": "#2E5C8A",
+    "button.hoverBackground": "#2E5C8A99",
+    "checkbox.border": "#5C6370"
   },
   "tokenColors": [
     {
