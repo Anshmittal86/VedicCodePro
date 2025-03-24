@@ -1,6 +1,6 @@
 {
   "name": "Vedic Code Pro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "dark",
   "semanticHighlighting": true,
   "colors": {
@@ -109,6 +109,23 @@
     "list.inactiveSelectionBackground": "#2E5C8A33",
     "list.inactiveSelectionForeground": "#FFB45499",
     "editor.selectionHighlightBorder": "#FFB45455",
+
+    "editor.findMatchBackground": "#FFB45455",
+    "editor.findMatchHighlightBackground": "#2E5C8A55",
+    "editor.inactiveSelectionBackground": "#2E5C8A33",
+    "editor.hoverHighlightBackground": "#2E5C8A33",
+    "editorBracketHighlight.foreground1": "#FFB454",
+    "editorBracketHighlight.foreground2": "#98C379",
+    "editorBracketHighlight.foreground3": "#C17AD8",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#F44747",
+    "editorUnnecessaryCode.opacity": "#FFFFFF22",
+    "gitDecoration.addedResourceForeground": "#98C379",
+    "gitDecoration.modifiedResourceForeground": "#FFB454",
+    "gitDecoration.untrackedResourceForeground": "#6AD4FF",
+
+    "disabledForeground": "#5C6370",
+    "button.secondaryBackground": "#2E5C8A33",
+    "button.secondaryHoverBackground": "#FFB45455",
 
     "gitDecoration.submoduleResourceForeground": "#7F8C9D",
     "editor.snippetFinalTabstopHighlightBorder": "#98C379"
@@ -624,6 +641,13 @@
       "settings": {
         "foreground": "#98C379",
         "background": "#1E233155"
+      }
+    },
+    {
+      "scope": "markup.underline.link.markdown",
+      "settings": {
+        "foreground": "#6A9BEE",
+        "fontStyle": "underline"
       }
     },
     {
