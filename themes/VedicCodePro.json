@@ -1,8 +1,12 @@
 {
   "name": "Vedic Code Pro",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "type": "dark",
   "semanticHighlighting": true,
+  "displayName": "Vedic Dark",
+  "description": "A spiritually inspired dark theme for focused coding",
+  "author": "Ansh Mittal",
+  "repository": "https://github.com/AnshMittal86/VedicCodePro",
   "colors": {
     "editor.background": "#121826",
     "editor.foreground": "#D7E1ED",
@@ -27,9 +31,24 @@
     "notebook.focusedCellBorder": "#2E5C8A",
     "diffEditor.insertedTextBackground": "#98C37920",
     "diffEditor.removedTextBackground": "#F4474720",
-    "terminal.background": "#0E1320",
-    "terminal.foreground": "#C0CDDC",
+
+    "terminal.ansiBlack": "#0E1320",
+    "terminal.ansiBrightBlack": "#3B4048",
+    "terminal.ansiRed": "#F44747",
+    "terminal.ansiBrightRed": "#FF6B6B",
+    "terminal.ansiGreen": "#98C379",
+    "terminal.ansiBrightGreen": "#8AFF80",
+    "terminal.ansiYellow": "#E5C07B",
+    "terminal.ansiBrightYellow": "#FFD580",
+    "terminal.ansiBlue": "#2E5C8A",
     "terminal.ansiBrightBlue": "#6A9BEE",
+    "terminal.ansiMagenta": "#C17AD8",
+    "terminal.ansiBrightMagenta": "#C678DD",
+    "terminal.ansiCyan": "#56B6C2",
+    "terminal.ansiBrightCyan": "#6AD4FF",
+    "terminal.ansiWhite": "#C0CDDC",
+    "terminal.ansiBrightWhite": "#E6EDF3",
+
     "sideBar.background": "#161B25F0",
     "sideBar.foreground": "#E6EDF3",
     "sideBarSectionHeader.background": "#1A1F2B",
@@ -83,8 +102,10 @@
     "input.background": "#1A1F2B",
     "input.foreground": "#FFD580",
     "notificationToast.border": "#2E5C8A",
-    "button.background": "#FFB45430",
+    "button.background": "#FFB45460",
     "button.hoverBackground": "#FFB45460",
+    "button.secondaryBackground": "#2E5C8A33",
+    "button.secondaryHoverBackground": "#FFB45480",
     "checkbox.border": "#5C6370",
     "menu.background": "#161B25",
     "menu.foreground": "#E6EDF3",
@@ -99,6 +120,8 @@
 
     "debugToolBar.background": "#0E1320",
     "editorWidget.background": "#161B25",
+    "debugIcon.startForeground": "#98C379",
+    "peekViewEditor.background": "#161B25",
     "merge.currentHeaderBackground": "#2E5C8A33",
     "merge.incomingHeaderBackground": "#98C37933",
     "editorGhostText.foreground": "#5C6370AA",
@@ -122,13 +145,31 @@
     "gitDecoration.addedResourceForeground": "#98C379",
     "gitDecoration.modifiedResourceForeground": "#FFB454",
     "gitDecoration.untrackedResourceForeground": "#6AD4FF",
+    "gitDecoration.conflictingResourceForeground": "#C17AD8",
 
-    "disabledForeground": "#5C6370",
-    "button.secondaryBackground": "#2E5C8A33",
-    "button.secondaryHoverBackground": "#FFB45455",
+    "disabledForeground": "#6B7280",
 
     "gitDecoration.submoduleResourceForeground": "#7F8C9D",
     "editor.snippetFinalTabstopHighlightBorder": "#98C379"
+  },
+  "hc": {
+    "editor.background": "#0A0E1A",
+    "editor.foreground": "#FFFFFF",
+    "editorCursor.foreground": "#FFB454",
+    "editorLineNumber.activeForeground": "#FFB454"
+  },
+  "semanticTokenColors": {
+    "variable": "#B3C7D8",
+    "variable:readonly": "#98C379",
+    "parameter": "#FF9166",
+    "typeParameter": "#C17AD8",
+    "function": "#FFD580",
+    "method": "#FFD580",
+    "class": "#4DC4FF",
+    "interface": "#98C379",
+    "enumMember": "#61AFEF",
+    "property": "#FABD2F",
+    "namespace": "#C792EA"
   },
   "tokenColors": [
     {
@@ -381,7 +422,7 @@
     {
       "scope": "entity.other.attribute-name.pseudo-class.css",
       "settings": {
-        "foreground": "#FF80BF",
+        "foreground": "#C17AD8",
         "fontStyle": ""
       }
     },
@@ -437,7 +478,7 @@
     {
       "scope": "support.type.property-name.transition.css",
       "settings": {
-        "foreground": "#FF6B6B",
+        "foreground": "#6AD4FF",
         "fontStyle": ""
       }
     },
@@ -596,7 +637,7 @@
     {
       "scope": "support.type.utility.ts",
       "settings": {
-        "foreground": "#C678DD"
+        "foreground": "#56B6C2"
       }
     },
     {
@@ -651,6 +692,18 @@
       }
     },
     {
+      "scope": "markup.list.numbered.markdown",
+      "settings": {
+        "foreground": "#FFD580"
+      }
+    },
+    {
+      "scope": "markup.underline.link.markdown:visited",
+      "settings": {
+        "foreground": "#C17AD8"
+      }
+    },
+    {
       "scope": "entity.other.attribute-name.svelte",
       "settings": {
         "foreground": "#FF80BF"
@@ -685,6 +738,29 @@
       "scope": "storage.type.annotation.java",
       "settings": {
         "foreground": "#C17AD8"
+      }
+    },
+    {
+      "scope": ["entity.other.attribute-name.vue", "meta.tag.astro"],
+      "settings": {
+        "foreground": "#8AFF80",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "meta.arbitrary-value.tailwindcss",
+      "settings": {
+        "foreground": "#7FD962"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag.yaml",
+        "punctuation.separator.key-value.yaml",
+        "meta.tag.table.toml"
+      ],
+      "settings": {
+        "foreground": "#6A9BEE"
       }
     }
   ]
