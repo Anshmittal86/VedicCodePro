@@ -3,6 +3,8 @@
 **A Cosmic Syntax Experience** ✨  
 _Where Ancient Vedic Wisdom Meets Modern Code Enlightenment_
 
+## Vedic Dark
+
 ![Vedic Code Pro Preview](./screenshots/vedic-code.png)
 
 ## 🌟 Installation
