@@ -168,7 +168,12 @@
     "enumMember": "#61AFEF",
     "property": "#FABD2F",
     "namespace": "#C792EA",
-    "functionCall": "#FFD580"
+    "functionCall": "#FFD580",
+    "type": "#4DC4FF",
+    "enum": "#61AFEF",
+    "decorator": "#C17AD8",
+    "async": "#FF6B6B",
+    "selfParameter": "#FFB454"
   },
   "tokenColors": [
     {
@@ -760,6 +765,91 @@
       ],
       "settings": {
         "foreground": "#6A9BEE"
+      }
+    },
+    {
+      "scope": ["entity.name.function.decorator.python", "meta.function.decorator.python"],
+      "settings": {
+        "foreground": "#C17AD8",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "support.type.exception.python",
+      "settings": {
+        "foreground": "#F44747"
+      }
+    },
+    {
+      "scope": "string.quoted.docstring.python",
+      "settings": {
+        "foreground": "#98C379AA",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "variable.parameter.python",
+      "settings": {
+        "foreground": "#FF9166"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.import.python",
+        "keyword.control.from.python",
+        "punctuation.separator.period.python"
+      ],
+      "settings": {
+        "foreground": "#C17AD8"
+      }
+    },
+    {
+      "scope": [
+        "meta.fstring.python",
+        "string.interpolated.python",
+        "punctuation.definition.interpolation.python"
+      ],
+      "settings": {
+        "foreground": "#8DC48A"
+      }
+    },
+    {
+      "scope": "variable.parameter.self.python",
+      "settings": {
+        "foreground": "#FFB454",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "support.function.magic.python",
+      "settings": {
+        "foreground": "#56B6C2",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "meta.function.parameters.python",
+      "settings": {
+        "foreground": "#B3C7D8"
+      }
+    },
+    {
+      "scope": "storage.modifier.annotation.python",
+      "settings": {
+        "foreground": "#6AD4FF"
+      }
+    },
+    {
+      "scope": "entity.name.type.annotation.python",
+      "settings": {
+        "foreground": "#61AFEF",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "meta.typehint.python",
+      "settings": {
+        "foreground": "#7F8C9D"
       }
     }
   ]
