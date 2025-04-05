@@ -17,11 +17,31 @@ _Where Ancient Vedic Wisdom Meets Modern Code Enlightenment_
 4. Activate with Ctrl+K Ctrl+T
 ```
 
-## Vedic Philosophy Integration
+## Vedic Philosophy Integration 🌸
 
-- **Dharma**: Balanced color relationships
-- **Karma**: Context-aware syntax highlighting
-- **Moksha**: Zero visual fatigue guarantee
+### **Dharma** - Cosmic Order
+
+_"Colors in their rightful place"_
+
+- Balanced ratios (6:1 contrast) mirroring Rta (natural order)
+- Hierarchical relationships between background/foreground
+- Elemental balance: Earth (strings) • Fire (errors) • Water (functions) • Air (comments)
+
+### **Karma** - Action & Reaction
+
+_"As you code, so shall your eyes feel"_
+
+- Dynamic syntax adaptation to code context
+- Responsive UI elements that respect developer workflow
+- Semantic highlighting that evolves with program structure
+
+### **Moksha** - Liberation
+
+_"Freedom from visual bondage"_
+
+- Anti-fatigue depth perception (3D layering effect)
+- Chakra-aligned ANSI colors for terminal harmony
+- Nirvana Mode™: Automatic dark/light balance
 
 ## Enterprise Features
 
@@ -44,3 +64,15 @@ You can author your README using Visual Studio Code. Here are some useful editor
 ## Credits
 
 - [**Vedic Code Pro**](https://github.com/AnshMittal86/VedicCodePro) by [Ansh Mittal](https://github.com/AnshMittal86)
+- Inspired by ancient Vedic color theory (Vaastu Shastra) and modern coding needs
+
+🕉️ **Unique Code Yoga**
+
+> _"Where mantras become monads and shlokas shape syntax"_  
+> This theme embodies the **Tat Tvam Asi** principle ("You are the code") through:
+
+- **Yantra Precision**: Mathematical color spacing
+- **Mandala Patterns**: Circular relationships in UI elements
+- **Sanskrit Inspiration**: Color names derived from Rigvedic hymns
+
+_Om Code Namah_ - May your variables be enlightened 🌟
