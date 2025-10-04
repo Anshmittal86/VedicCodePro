@@ -5,7 +5,9 @@ _Where Ancient Vedic Wisdom Meets Modern Code Enlightenment_
 
 ## Vedic Dark
 
-![Vedic Code Pro Preview](./screenshots/vedic-code.png)
+![Vedic Code Dark Preview](<./screenshots/vedic-dark-v(3.0.0).png>)
+
+![Vedic Code Light Preview](<./screenshots/vedic-light-v(3.0.0).png>)
 
 ## 🌟 Installation
 
