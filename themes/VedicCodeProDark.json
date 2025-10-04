@@ -171,11 +171,15 @@
     "peekViewResult.background": "#141922",
     "peekViewTitle.background": "#10151D",
 
-    "panel.background": "#0A0E15D9",
     "panel.border": "#1A1F28",
     "panelTitle.activeBorder": "#FFB454",
     "panelTitle.activeForeground": "#FFB454",
     "panelTitle.inactiveForeground": "#7F8C9D",
+
+    "panelSectionHeader.background": "#141922",
+    "panelSectionHeader.foreground": "#FFB454",
+    "panelSectionHeader.border": "#1A1F28",
+    "panelSection.dropBackground": "#2E5C8A33",
 
     "quickInput.background": "#141922F2",
     "quickInput.foreground": "#FFD580",
@@ -239,7 +243,11 @@
     "terminal.background": "#0D1117",
     "terminal.foreground": "#D7E1ED",
     "terminal.border": "#1A1F28",
-    "terminal.tab.activeBorder": "#FFB454",
+    "terminal.dropBackground": "#2E5C8A33",
+
+    "terminalCursor.background": "#0D1117",
+    "terminalCursor.foreground": "#FFB454",
+    "terminal.hoverBackground": "#161B22",
 
     "titleBar.activeBackground": "#141922",
     "titleBar.activeForeground": "#FFB454",
@@ -259,6 +267,11 @@
     "tab.hoverBorder": "#FFB45420",
     "tab.unfocusedHoverBackground": "#10151D",
     "tab.unfocusedHoverBorder": "#FFB45410",
+
+    "terminal.tab.activeBorder": "#FFB454",
+    "terminalCommandDecoration.defaultBackground": "#2E5C8A",
+    "terminalCommandDecoration.successBackground": "#98C379",
+    "terminalCommandDecoration.errorBackground": "#F44747",
 
     "vedic.primary": "#FFB454",
     "vedic.secondary": "#2E5C8A",
@@ -1007,6 +1020,25 @@
       "scope": ["support.function.vue", "support.type.vue"],
       "settings": {
         "foreground": "#8AFF80"
+      }
+    },
+    {
+      "scope": ["constant", "variable.other.constant"],
+      "settings": {
+        "foreground": "#6AD4FF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["support.type", "support.class"],
+      "settings": {
+        "foreground": "#4DC4FF"
+      }
+    },
+    {
+      "scope": ["entity.name.type", "entity.name.class"],
+      "settings": {
+        "foreground": "#4DC4FF"
       }
     }
   ]
