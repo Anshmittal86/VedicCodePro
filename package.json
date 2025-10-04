@@ -1,9 +1,9 @@
 {
   "name": "vedic-code-pro",
   "displayName": "Vedic Code Pro",
-  "description": "A dark theme optimized for web development.",
+  "description": "A spiritually inspired dark and light theme with modern 3D polish and ancient golden accents",
   "version": "3.0.0",
-  "publisher": "Ansh Mittal",
+  "publisher": "AnshMittal",
   "custom": {
     "vedicSignature": true,
     "dynamicContrast": false
@@ -27,5 +27,30 @@
         "path": "./themes/VedicCodeProLight.json"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnshMittal86/VedicCodePro.git"
+  },
+  "homepage": "https://github.com/AnshMittal86/VedicCodePro",
+  "bugs": {
+    "url": "https://github.com/AnshMittal86/VedicCodePro/issues"
+  },
+  "keywords": [
+    "vedic",
+    "dark",
+    "light",
+    "theme",
+    "color-theme",
+    "spiritual",
+    "ancient",
+    "yoga",
+    "meditation"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#0D1117",
+    "theme": "dark"
+  },
+  "license": "MIT"
 }
