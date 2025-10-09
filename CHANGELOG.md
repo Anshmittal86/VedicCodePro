@@ -2,7 +2,7 @@
 
 All notable changes to the "Vedic Code Pro" extension will be documented in this file.
 
-## [3.0.0]
+## [3.0.1]
 
 ### Added
 

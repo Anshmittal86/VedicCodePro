@@ -1,6 +1,6 @@
 # Vedic Code Pro <img src="https://img.shields.io/badge/AURAGLOW-Certified-FFB454" alt="AuraGlow Certified"> <img src="https://img.shields.io/badge/Contrast-AA%2B%2B-98C379" alt="Contrast AA++">
 
-<img src="https://img.shields.io/badge/Version-3.0.0-2E5C8A" alt="Version 3.0.0">
+<img src="https://img.shields.io/badge/Version-3.0.1-2E5C8A" alt="Version 3.0.1">
 
 **A Cosmic Syntax Experience** ✨  
 _Where Ancient Vedic Wisdom Meets Modern Code Enlightenment_

@@ -2,7 +2,7 @@
   "name": "vedic-code-pro",
   "displayName": "Vedic Code Pro",
   "description": "A spiritually inspired dark and light theme with modern 3D polish and ancient golden accents",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "publisher": "AnshMittal",
   "custom": {
     "vedicSignature": true,
